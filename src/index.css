@@ -4,7 +4,9 @@
 
 body{
     background: linear-gradient(rgb(33, 33, 171),#3f0484);
+    background-repeat: no-repeat;
     height: 100vh;
+    font-weight: 100%;
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
 }
