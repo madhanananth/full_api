@@ -9,6 +9,7 @@ const RegisterationForm = () =>{
 
     return(
         <>
+        <form>
         <div className="container">
             <div className="header">
                 <h3>{action}</h3>
@@ -29,6 +30,7 @@ const RegisterationForm = () =>{
             </div>
             <div className="login-link"><p>Already have a account ?{" "}<a href="#">Sign in</a></p></div>
         </div>
+        </form>
         </>
     )
 }
