@@ -25,9 +25,9 @@ const RegisterationForm = () =>{
                 </div>
             </div>
             <div className="submit-container">
-                <span className="submit">{action}</span>
-                
+                <button className="submit" type="submit">{action}</button>   
             </div>
+            <div className="login-link"><p>Already have a account ?{" "}<a href="#">Sign in</a></p></div>
         </div>
         </>
     )

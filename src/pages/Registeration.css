@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 450px;
     margin: auto;
     margin-top: 150px;
     background-color: #fff;
@@ -18,14 +18,14 @@
 }
  .header h3 {
     color: #231fa8;
-    font-size: 37px;
+    font-size: 32px;
     font-weight: 700;
     margin: 0;
 
 }
 .header .line {
     height: 4px;
-    width: 148px;
+    width: 70px;
     background-color: #231fa8;
     border-radius: 9px;
 }
@@ -38,45 +38,53 @@
 .input {
     display: flex;
     align-items: center;
-    width: 480px;
-    height: 60px;
+    width: 380px;
+    height: 50px;
     background: #eaeaea;
     margin: auto;
     border-radius: 5px;
 }
 .logo {
-    margin: 0 30px;
+    margin: 0 20px;
     color: #797979;
 }
 .input input {
-    width: 400px;
+    width: 328px;
     height: 50px;
     background: transparent;
     border: none;
     outline: none;
-    border-left: 3px solid #797979;
+    border-left: 2.5px solid #797979;
     border-radius: 2px;
     color: #797979;
-    font-size: 19px;
+    font-size: 17px;
     padding: 0 10px;
 }
 .submit-container {
-    display: flex;
-    gap: 25px;
-    margin: 60px auto;
+    margin: auto;
+    margin-top: 40px;
 }
 .submit {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 50px;
+    width: 140px;
+    height: 45px;
     color: #fff;
     background: #3d0586;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 700;
 }
-
+.login-link {
+    font-size: 17px;
+    text-align: center;
+    color: #797979;
+}
+.login-link p a {
+    color: #797979;
+    text-decoration: none;
+    font-weight: 700;
+}
 
