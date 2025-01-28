@@ -63,7 +63,7 @@
 }
 .submit-container {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 .submit {
     display: flex;
@@ -87,5 +87,15 @@
     color: #797979;
     text-decoration: none;
     font-weight: 700;
+}
+p.Error {
+    font-size: 13px;
+    color: red;
+    text-align: center;
+}
+.container .Error {
+    font-size: 13px;
+    color: red;
+    text-align: center;
 }
 
