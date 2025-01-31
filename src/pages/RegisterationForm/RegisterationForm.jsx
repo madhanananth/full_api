@@ -22,7 +22,6 @@ const RegisterationForm = () =>{
             navigate('/')
             reset()
             dispatch(authReset())
-            sucess()
         }
     },[registerStatus])
 
