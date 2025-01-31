@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(#0ab8be,#1656c6);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-weight: 100%;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}

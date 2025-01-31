@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+    width: 100%;
+}
+ .header h3 {
+    color:  #0ab8be;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+
+}
+.header .line {
+    height: 4px;
+    width: 70px;
+    background-color:  #0ab8be;
+    border-radius: 9px;
+}
+.inputs {
+    margin-top: 50px;    
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.input {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+    background: #eaeaea;
+    margin: auto;
+    border-radius: 5px;
+}
+.logo {
+    margin: 0 20px;
+    color: #797979;
+}
+.input input {
+    width: 328px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-left: 2.5px solid #797979;
+    border-radius: 2px;
+    color: #797979;
+    font-size: 17px;
+    padding: 0 10px;
+}
+.submit-container {
+    margin: auto;
+    margin-top: 15px;
+}
+.submit {
+    width: 140px;
+    height: 45px;
+    color: #fff;
+    background: #0ab8be;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+}
+.login-link {
+    font-size: 17px;
+    text-align: center;
+    color: #797979;
+}
+.login-link p a {
+    color: #797979;
+    text-decoration: none;
+    font-weight: 700;
+}
+p.Error {
+    font-size: 13px;
+    color: red;
+    text-align: center;
+}
+.container .Error {
+    font-size: 13px;
+    color: red;
+    text-align: end;
+    padding: 0 40px;
+    margin: 0;
+}
+

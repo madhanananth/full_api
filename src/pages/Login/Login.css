@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
     width: 100%;
 }
  .header h3 {
-    color: #231fa8;
+    color: #0ab8be;
     font-size: 32px;
     font-weight: 700;
     margin: 0;
@@ -27,7 +28,7 @@
 .header .line {
     height: 4px;
     width: 70px;
-    background-color: #231fa8;
+    background-color: #0ab8be;
     border-radius: 9px;
 }
 .inputs {
@@ -72,11 +73,12 @@
     width: 140px;
     height: 45px;
     color: #fff;
-    background: #3d0586;
+    background: #0ab8be;
     border-radius: 50px;
     cursor: pointer;
     font-size: 17px;
     font-weight: 700;
+    border: none;
 }
 .login-link {
     font-size: 17px;
@@ -96,6 +98,7 @@ p.Error {
 .container .Error {
     font-size: 13px;
     color: red;
-    text-align: center;
+    text-align: end;
+    padding: 0 40px;
+    margin: 0;
 }
-
