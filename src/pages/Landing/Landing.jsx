@@ -1,6 +1,7 @@
 import { loggedOut } from "../../redux/slices/authSlice";
 import { useSelector , useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import './landing.css'
 
 const Landing = () => {
   const {loggedIn} = useSelector(state => state.auth)
