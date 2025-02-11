@@ -14,19 +14,23 @@ const Landing = () => {
   return (
 
   <>
-   { !loggedIn && 
+
+  {
+
+    loggedIn && 
+    <div className="logout">
+    <h6>To-Do</h6>
+    <a onClick={logout}>Logout</a>
+    </div>
+
+  }
+{!loggedIn &&
     <div>
     <Link to = '/Login'>Login</Link>
     <Link to ="/register">SignUp</Link>
     </div>
-  }
-  { loggedIn &&
-    <div>
-      <h6>To-Do</h6>
-      <a onClick={logout}>Logout</a>
-    </div>
-  }
-    
+
+}
 
     <h1>Hello World</h1>
     </>

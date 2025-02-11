@@ -58,8 +58,7 @@ const authSlice = createSlice({
         loggedIn : localStorage.getItem("loggedIn") == "true" ? true : false ,
         loginError: null,
         loginLoading: false,
-        loginStatus: 'idle',
-
+        loginStatus: 'idle'
     },
     reducers:{
         authReset:(state)=> {
@@ -102,7 +101,8 @@ const authSlice = createSlice({
         .addCase(loginAsync.fulfilled, (state , action)=>{
             state.loginLoading = false 
             state.loginData = action.payload
-            state.loginStatus = "success"
+            state.loginStatus = "success",
+            state.loggedIn = "true"
             localStorage.setItem('accessToken', action.payload.access_token)
             localStorage.setItem('loggedIn', "true")
         })
