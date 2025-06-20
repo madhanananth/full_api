@@ -52,7 +52,7 @@ const Login = () => {
             </div>
             
             <div className="submit-container">
-                <button className="submit" type="submit" disabled = {loginError}  > {loginError ? 'logIn...' :" LogIn"}</button>   
+                <button className="submit" type="submit" disabled = {loginLoading}  > {loginLoading ? 'logIn...' :" LogIn"}</button>   
             </div>
             <div className="login-link"><p>Don't have an account ?{" "}<Link to="/Register">Sign up</Link></p></div>
         </div>
